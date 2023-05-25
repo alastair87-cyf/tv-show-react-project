@@ -1,0 +1,26 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+	"name": "alastair87/nodejs:lts",
+	
+	"image": "docker.io/alastair87/nodejs:lts",
+	
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-labs",
+				"yzhang.markdown-all-in-one",
+				"shd101wyy.markdown-preview-enhanced",
+				"firefox-devtools.vscode-firefox-debug",
+				"ms-edgedevtools.vscode-edge-devtools",
+				"esbenp.prettier-vscode",
+				"unifiedjs.vscode-mdx"
+			]
+		}
+	}
+}
