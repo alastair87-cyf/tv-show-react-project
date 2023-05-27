@@ -19,7 +19,8 @@
 				"firefox-devtools.vscode-firefox-debug",
 				"ms-edgedevtools.vscode-edge-devtools",
 				"esbenp.prettier-vscode",
-				"unifiedjs.vscode-mdx"
+				"unifiedjs.vscode-mdx",
+				"rvest.vs-code-prettier-eslint"
 			]
 		}
 	}
