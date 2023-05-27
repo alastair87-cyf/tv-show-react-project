@@ -22,7 +22,6 @@ function EpisodeSelector({ episodes }) {
 function scrollToSelectedArticle(select) {
   const targetCode = select.selectedOptions[0].value;
   const target = document.getElementById(`episode-${targetCode}`);
-  console.log(targetCode, target);
   if (!target) return;
 
   target.scrollIntoView({ behavior: "smooth" });

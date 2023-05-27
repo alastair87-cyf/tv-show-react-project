@@ -42,7 +42,8 @@ div#episodes article img {
   width: 100%;
 }
 
-div.episode-selector {
+div.episode-selector,
+div.show-selector {
   margin: 25px auto;
   text-align: center;
 }

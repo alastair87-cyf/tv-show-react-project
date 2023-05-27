@@ -1,8 +1,7 @@
-import EpisodeView from "./EpisodeView";
-import { getAllEpisodes } from "./episodes";
+import ShowFetcher from "./ShowFetcher";
 
 function App() {
-  return <EpisodeView episodes={getAllEpisodes()} />;
+  return <ShowFetcher />;
 }
 
 export default App;

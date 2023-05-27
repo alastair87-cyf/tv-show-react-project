@@ -2,8 +2,9 @@ import { useState } from "react";
 import EpisodeList from "./EpisodeList";
 import EpisodeSelector from "./EpisodeSelector";
 import SearchBar from "./SearchBar";
+import ShowSelector from "./ShowSelector";
 
-function EpisodeView({ episodes }) {
+function EpisodeView({ episodes, ...showProps }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   const totalEpisodeCount = episodes.length;
@@ -20,6 +21,7 @@ function EpisodeView({ episodes }) {
 
   return (
     <>
+      <ShowSelector {...showProps} />
       <EpisodeSelector episodes={filteredEpisodes} />
       <SearchBar
         searchTerm={searchTerm}
