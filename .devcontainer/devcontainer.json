@@ -19,7 +19,8 @@
 				"firefox-devtools.vscode-firefox-debug",
 				"ms-edgedevtools.vscode-edge-devtools",
 				"esbenp.prettier-vscode",
-				"rvest.vs-code-prettier-eslint"
+				"rvest.vs-code-prettier-eslint",
+				"WallabyJs.quokka-vscode"
 			]
 		}
 	}
